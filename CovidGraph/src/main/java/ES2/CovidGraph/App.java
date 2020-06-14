@@ -69,6 +69,12 @@ public class App {
 			e.printStackTrace();
 		}
 	}
+	
+	/**
+	 * 
+	 * Method to search for Covid19spreading file versions with tags
+	 * 
+	 **/
 
 	public void getRDFfile() {
 		try {
@@ -146,6 +152,19 @@ public class App {
 		}
 
 	}
+	
+	/**
+	 * Method to create list with file specifications and return it
+	 * 
+	 * @param timeStamp
+	 * @param fileName
+	 * @param fileTag
+	 * @param tagDescription
+	 * @param link
+	 * @return
+	 * 
+	 * 
+	 */
 
 	public ArrayList<String> valuesList(String timeStamp, String fileName, String fileTag, String tagDescription,
 			String link) {
@@ -158,6 +177,13 @@ public class App {
 		return list;
 
 	}
+	
+	
+	/***
+	 * 
+	 * Method to create table and fill with file specifications
+	 * 
+	 */
 
 	public void populateHTML() {
 		System.out.println(filesList.toString());
@@ -182,6 +208,12 @@ public class App {
 		}
 
 	}
+	
+	/**
+	 * Main method to execute App
+	 * 
+	 * @param args
+	 */
 
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
