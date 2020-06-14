@@ -189,7 +189,7 @@ public class App {
 		System.out.println(filesList.toString());
 		PrintWriter pw;
 		try {
-			pw = new PrintWriter(new FileWriter("test.html"));
+			pw = new PrintWriter(new FileWriter("CovidGraph.html"));
 			pw.write("<html><body><table border='1'><thead>"
 					+ "<tr><th>File TimeStamp</th><th>File Name</th><th>File Tag</th>"
 					+ "<th>Tag Description</th><th>Spread Visualization Link</th></tr>" + "</thead></body>");
